@@ -5,7 +5,23 @@ public class SubArraySort {
 
     // Brute force
     public static int[] bruteSubArraySort(int[] a) {
+        int[] b = a.clone();
+        int i = 0; 
+        int n = a.length;
+        int j = n - 1;
+        while (i < n && a[i] == b[i]) {
+            i++;
+        }
+        while (j >= 0 && a[i] == b[i]) {
+            j--;
+        }
+        if(i == a.length) return new int[] {-1, -1};
+
+        return new int[] {i, j};
+    }
+
+    // optimized solution 
+    public static int[] optimizedSubArraySort(int[] a) {
         
-    } 
-    
+    }
 }
