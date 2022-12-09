@@ -13,7 +13,7 @@ public class Mountain {
                     count ++;
                     j--;
                 }
-                while (j < n - 2 && a[i] > a[i + 1]) {
+                while (i < n - 2 && a[i] > a[i + 1]) {
                     count++;
                     i++;
                 }
