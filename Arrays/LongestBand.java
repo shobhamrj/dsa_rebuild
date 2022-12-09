@@ -7,7 +7,6 @@ import java.util.Set;
 public class LongestBand {
     // problem statement largest subset containing consecutive numbers
     public static int findLongestBand(ArrayList<Integer> a) {
-        int n = a.size();
         Set<Integer> set = new HashSet<>();
         set.addAll(a); //add all elements inside a set
         int largestLength = 1; 
