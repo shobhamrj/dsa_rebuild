@@ -5,8 +5,6 @@ import java.util.Arrays;
 public class MinSwap {
 
     // Problem statement: count the minimum number of swaps to make an array sorted
-    
-
     public static int minSwap(int[] arr1) {
         int n = arr1.length;
         Pair[] arr = new Pair[n];
