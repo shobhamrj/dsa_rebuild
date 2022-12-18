@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class MinimumDifference {
 
-    public static Pair closestDifference(int[] a1, int[] a2) {
+    public static void closestDifference(int[] a1, int[] a2) {
         if (a1 == null || a2 == null)
-            return new Pair(-1, -1);
+        System.out.println(-1 + " " + -1);
         Pair res = new Pair();
         int globalMinDiff = Integer.MAX_VALUE;
 
@@ -26,21 +26,12 @@ public class MinimumDifference {
                 j++;
             }
         }
-        return res;
+        System.out.println(res.first + " " + res.second);
     }
 
     private static class Pair {
         int first;
         int second;
 
-        Pair() {
-            this.first = 0;
-            this.second = 0;
-        }
-
-        Pair(int first, int second) {
-            this.first = first;
-            this.second = second;
-        }
     }
 }
