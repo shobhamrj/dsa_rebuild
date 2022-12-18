@@ -1,6 +1,6 @@
 package StringsAndCharacters;
 
-public class Search {
+public class SpaceTwenty {
     
     // simple updating characters in a string 
     public static StringBuilder replaceSpace(StringBuilder str) {
