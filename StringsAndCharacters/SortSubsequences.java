@@ -1,4 +1,4 @@
-// package StringsAndCharacters;
+package StringsAndCharacters;
 
 import java.util.ArrayList;
 import java.util.Comparator;
