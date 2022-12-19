@@ -1,2 +1,0 @@
-Break a Palindrome
-Biggest Number String
