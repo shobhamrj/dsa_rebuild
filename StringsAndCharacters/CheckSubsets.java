@@ -15,6 +15,6 @@ public class CheckSubsets {
                 i--;
             }
         }
-        return i == -1;
+        return j == -1;
     }
 }
