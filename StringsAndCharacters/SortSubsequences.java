@@ -28,13 +28,13 @@ public class SortSubsequences {
         String s = "abc";
         String output =  "";
         subsequence(s, output);
-        // arrayList.sort(new Comparator<String>() {
-        //     @Override
-        //     public int compare(String s1, String s2) {
-        //         if(s1.length() == s2.length()) return s1.compareTo(s2);
-        //         return s1.length() < s2.length() ? -1 : 1;
-        //     }
-        // });
+        arrayList.sort(new Comparator<String>() {
+            @Override
+            public int compare(String s1, String s2) {
+                if(s1.length() == s2.length()) return s1.compareTo(s2);
+                return s1.length() < s2.length() ? -1 : 1;
+            }
+        });
         System.out.println(arrayList);
 
     }
