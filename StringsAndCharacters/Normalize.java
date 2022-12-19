@@ -6,8 +6,8 @@ public class Normalize {
     // Your task is to, write a function that returns a copy of this sentence where all the words:
     //  start with a capital letter
     //  the rest of the letters are lower case
-    public static String normalize(StringBuilder sentence) {
-        StringBuilder copy = sentence;
+    public static String normalize(String sentence) {
+        StringBuilder copy = new StringBuilder(sentence);
         int idx = 0;
         while(idx < sentence.length()) {
             idx = removeWhiteSpace(copy, idx);
@@ -34,7 +34,7 @@ public class Normalize {
     }
 
     public static void main(String[] args) {
-        StringBuilder s = new StringBuilder("tHIS iS mY hOUSE");
+        String s = "tHIS iS mY hOUSE";
         System.out.println(normalize(s));
     }
 }
