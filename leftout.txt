@@ -1,4 +1,11 @@
-Break a Palindrome
-Biggest Number String
+String: Break a Palindrome
+        Biggest Number String
 
 BitManipulation
+
+Sliding Window: String Window   
+                Smallest Distinct Window
+                Sliding Window Maximum
+                Count Subarrays with tarrget Sum
+
+ 
