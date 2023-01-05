@@ -1,5 +1,3 @@
-// package SortingAndSearching;
-
 import java.util.ArrayList;
 
 public class InversionCount {
