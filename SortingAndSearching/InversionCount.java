@@ -30,7 +30,8 @@ public class InversionCount {
 
         //copy back the elements from temp to original array
         int k = 0 ;
-        for(int idx = start; idx <= end; idx++) array.set(idx, temp.get(k++));
+        for(int idx = start; idx <= end; idx++) 
+            array.set(idx, temp.get(k++));
         
         return count;
     }
@@ -48,11 +49,11 @@ public class InversionCount {
 
     public static void main(String[] args) {
         ArrayList<Integer> arr= new ArrayList<>();
+        arr.add(0);
         arr.add(5);
-        arr.add(1);
         arr.add(2);
         arr.add(3);
-        arr.add(4);
+        arr.add(1);
         int start = 0;
         int end = arr.size()-1;
         System.out.println(inversionCount(arr, start, end));
