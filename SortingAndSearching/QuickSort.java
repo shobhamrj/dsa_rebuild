@@ -28,14 +28,12 @@ public class QuickSort {
         int temp = arr[j];
         arr[j] = arr[i];
         arr[i] = temp;
-        return;
     }
-    
-    
-    
+      
     public static void main(String[] args) {
         int[] ar= {5,6,6,7,8,4,1};
         quickSort(ar, 0, ar.length - 1);
         System.out.println(Arrays.toString(ar));
    }
+   
 }
