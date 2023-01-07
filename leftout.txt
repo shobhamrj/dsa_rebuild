@@ -8,4 +8,5 @@ Sliding Window: String Window
                 Sliding Window Maximum
                 Count Subarrays with tarrget Sum
 
+Searching And Sorting: ICPC Standing
  
