@@ -6,7 +6,7 @@ public class MinimumDifference {
 
     public static void closestDifference(int[] a1, int[] a2) {
         if (a1 == null || a2 == null)
-        System.out.println(-1 + " " + -1);
+            System.out.println(-1 + " " + -1);
         Pair res = new Pair();
         int globalMinDiff = Integer.MAX_VALUE;
 

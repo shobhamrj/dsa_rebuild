@@ -1,7 +1,7 @@
 String: Break a Palindrome
         Biggest Number String
 
-BitManipulation
+BitManipulation:
 
 Sliding Window: String Window   
                 Smallest Distinct Window
