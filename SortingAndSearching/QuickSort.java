@@ -11,7 +11,7 @@ public class QuickSort {
         quickSort(arr, partition + 1, end);
     }
 
-    public static int quicksortPartition(int[] arr, int start, int end) {
+    private static int quicksortPartition(int[] arr, int start, int end) {
         int pivot = arr[end];
         int i = start - 1;
         for(int j = start; j < end; j++) {
@@ -24,7 +24,7 @@ public class QuickSort {
         return i + 1;
     }
 
-    public static void swap(int[] arr, int i, int j) {
+    private static void swap(int[] arr, int i, int j) {
         int temp = arr[j];
         arr[j] = arr[i];
         arr[i] = temp;

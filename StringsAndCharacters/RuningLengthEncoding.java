@@ -2,7 +2,10 @@ package StringsAndCharacters;
 
 public class RuningLengthEncoding {
     
-    //Write a function to perform basic string compression using the counts of repeated characters, also known as Run Length Encoding. Let see one example, the input string "aaaabcccccaaa" would become "a4b1c5a3". If the "compressed" string would not become smaller than the original string, your function should return the input string. You can assume the string has only uppercase and lowercase letters. 
+    // Write a function to perform basic string compression using the counts of repeated characters, 
+    // also known as Run Length Encoding. Let see one example, the input string "aaaabcccccaaa" would 
+    // become "a4b1c5a3". If the "compressed" string would not become smaller than the original string,
+    // your function should return the input string. You can assume the string has only uppercase and lowercase letters. 
     public static String encode(String str) {
         int n = str.length();
         String res = "";

@@ -15,17 +15,13 @@ public class Housing {
                 curSum = curSum - arr[i];
                 i++;
             }
-            if (curSum == k) {
+            if (curSum == k)
                 System.out.println(i + " - " + (j - 1));
-            }
-
         }
     }
-
     // public static void main(String[] args) {
-
-    // int arr[] = {1, 3, 2, 1, 4, 1, 3, 2, 1, 1};
-    // int k = 8;
-    // findSubArray(arr, k);
+        // int arr[] = {1, 3, 2, 1, 4, 1, 3, 2, 1, 1};
+        // int k = 8;
+        // findSubArray(arr, k);
     // }
 }
