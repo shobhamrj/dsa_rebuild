@@ -23,7 +23,7 @@ public class QuickSelect {
         return i + 1;
     }
 
-    public static void swap(ArrayList<Integer> a, int i, int j) {
+    private static void swap(ArrayList<Integer> a, int i, int j) {
         int temp = a.get(i);
         a.set(i, a.get(j));
         a.set(j, temp);
