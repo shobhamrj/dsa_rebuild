@@ -24,9 +24,11 @@ public class SortSubArray {
     }
 
     public static int[] optimizedMinSubArray(int[] arr) { // check if elements are strictly increasing or not, in that find the min and max elements 
-        if(arr.length <= 1) return new int[] {-1, -1}; // already sorted 
+        if(arr.length <= 1) return new int[] {-1, -1}; // already sorted
+         
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
+
         for(int i = 1; i < arr.length - 2; i++) {
             if(arr[i] > arr[i + 1] || arr[i] < arr[i - 1]) {
                 max = Math.max(arr[i], max);
