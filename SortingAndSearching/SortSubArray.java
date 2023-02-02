@@ -13,16 +13,13 @@ public class SortSubArray {
         Arrays.sort(sortedArr);
 
         int i = 0;
-        while(i < arr.length && arr[i] == sortedArr[i]) {
-            i++;
-        }
+        while(i < arr.length && arr[i] == sortedArr[i]) i++;
 
         int j = arr.length - 1;
-        while(j >= 0 && arr[j] == sortedArr[j]) {
-            j--;
-        }
+        while(j >= 0 && arr[j] == sortedArr[j]) j--;
 
         if(i == arr.length) return new int[]{-1, -1};
+
         return new int[] {i, j};
     }
 
@@ -31,7 +28,7 @@ public class SortSubArray {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for(int i = 1; i < arr.length - 2; i++) {
-            if(arr[i] > arr[i + 1] && arr[i] < arr[i - 1]) {
+            if(arr[i] > arr[i + 1] || arr[i] < arr[i - 1]) {
                 max = Math.max(arr[i], max);
                 min = Math.min(arr[i], min);
             }
@@ -49,6 +46,6 @@ public class SortSubArray {
 
     public static void main(String[] args) {
         int[] arr = {1, 4, 10, 8, 30, 2, 50, 20, 100, 500};
-        System.out.println(optimizedMinSubArray(arr).toString());
+        System.out.println(Arrays.toString((optimizedMinSubArray(arr))));
     }
 }
