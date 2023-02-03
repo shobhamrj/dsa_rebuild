@@ -7,7 +7,7 @@ public class SortSubArray {
      * denoting starting and ending indices of the smallest subarray in the input 
      * array that needs to be sorted in place so that the entire input is sorted.
      * If the input array is already sorted, return a pair [-1,-1].
-     */
+    */
     public static int[] minSubArray(int[] arr) {  // Time Complexity O(nlogn) used sorting
         int[] sortedArr = arr.clone();
         Arrays.sort(sortedArr);
