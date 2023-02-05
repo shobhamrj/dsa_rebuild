@@ -1,12 +1,17 @@
 String: Break a Palindrome
         Biggest Number String
 
-BitManipulation:
+BitManipulation: All
 
 Sliding Window: String Window   
                 Smallest Distinct Window
                 Sliding Window Maximum
-                Count Subarrays with tarrget Sum
+                Count Subarrays with target Sum
 
 Searching And Sorting: ICPC Standing
+
+BinarySearch: Angry Birds
+              Min Pairs
+              Game of greed 
+              Reading books
  
