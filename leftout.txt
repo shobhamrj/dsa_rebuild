@@ -10,8 +10,7 @@ Sliding Window: String Window
 
 Searching And Sorting: ICPC Standing
 
-BinarySearch: Angry Birds
-              Min Pairs
+BinarySearch: Min Pairs
               Game of greed 
               Reading books
  
