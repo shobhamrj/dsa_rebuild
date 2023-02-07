@@ -11,7 +11,7 @@ public class AngryBirds {
         int start = 0;
         int end = nests.get(n - 1) - nests.get(0);
         int result = -1;
-        
+
         while(start <= end) {
             int mid = (start + end) / 2;
             boolean canPlace = canPlaceBirds(birds, n, nests, mid);
