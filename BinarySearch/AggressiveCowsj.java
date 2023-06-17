@@ -1,5 +1,9 @@
+package BinarySearch;
+
+import java.util.Arrays;
+
 //https://practice.geeksforgeeks.org/problems/aggressive-cows/0
-class Solution {
+class AggressiveCows {
     public static boolean isFeasible(int[] stalls, int mid, int n, int k) {
         int count = 1;  // Counter for the number of stalls that can be built
         int prevStall = stalls[0];  // Track the position of the previously built stall

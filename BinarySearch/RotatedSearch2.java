@@ -1,5 +1,7 @@
+package BinarySearch;
+
 //https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
-class Solution {
+class RotatedSearch2 {
     public boolean search(int[] nums, int target) {
         int n = nums.length;
         int s = 0, e = n - 1;
