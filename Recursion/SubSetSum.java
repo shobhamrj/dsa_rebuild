@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 // ref - https://practice.geeksforgeeks.org/problems/subset-sums2234/1
-public class SunSetSum {
+public class SubSetSum {
     static ArrayList<Integer> res = new ArrayList<>();
 
     public static void findSum(ArrayList<Integer> arr, int idx, int sum) {
