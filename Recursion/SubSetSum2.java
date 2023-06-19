@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// ref - https://leetcode.com/problems/subsets-ii/
 public class SubSetSum2 {
 
     private static final List<List<Integer>> res = new ArrayList<>();
@@ -22,6 +23,6 @@ public class SubSetSum2 {
         int[] arr = {1, 3, 2, 2, 2, 3};
         Arrays.sort(arr);
         findCom(arr, 0, new ArrayList<>());
-        System.out.println(res.toString());
+        System.out.println(res);
     }
 }
