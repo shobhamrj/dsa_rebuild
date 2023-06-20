@@ -15,9 +15,8 @@ public class Permutations {
         System.out.println(res);
     }
 
-    public static List<List<Integer>> permute(int[] nums) {
+    public static void permute(int[] nums) {
         helper(nums, 0);
-        return res;
     }
 
     private static void helper(int[] arr, int idx) {
